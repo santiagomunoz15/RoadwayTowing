@@ -1,0 +1,58 @@
+/* 
+
+Gris: #898B89;
+Rojo: #D82729; 
+
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    color: #D82729;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    border-bottom: 4px solid #D82729;
+}
+
+.header-logo {
+    border: 3px solid;
+    padding: 5px;
+}
+
+header h2 {
+    font-weight: 900;
+    font-style: italic;
+}
+
+main {
+    height: 600px;
+    text-align: center;
+}
+
+.main-text {
+    padding: 7%;
+    color: #898B89;
+}
+
+.main-text h3 {
+    color: #000;
+}
+
+.main-text-line {
+    height: 1px;
+    width: 50px;
+    background-color: #D82729;
+    margin: 12px auto;
+}
