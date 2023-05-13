@@ -15,6 +15,14 @@ img {
     width: 100%;
 }
 
+
+.horizontal-line {
+    height: 1px;
+    width: 50px;
+    margin: 12px auto;
+}
+
+
 header {
     height: 100px;
     color: #D82729;
@@ -22,7 +30,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 7%;
     border-bottom: 4px solid #D82729;
 }
 
@@ -31,14 +39,26 @@ header {
     padding: 5px;
 }
 
+.header-menu {
+    display: grid;
+    align-content: center;
+}
+
 header h2 {
     font-weight: 900;
     font-style: italic;
 }
 
 main {
-    height: 600px;
     text-align: center;
+}
+
+.main-intro {
+    margin-bottom: 40px;
+}
+
+#main-intro-line {
+    background-color: #D82729;
 }
 
 .main-text {
@@ -50,9 +70,15 @@ main {
     color: #000;
 }
 
-.main-text-line {
-    height: 1px;
-    width: 50px;
+
+
+.main-services {
     background-color: #D82729;
-    margin: 12px auto;
+    color: #FFF;
+    height: 300px;
+    padding: 7%;
+}
+
+#main-services-line {
+    background-color: #FFF;
 }
