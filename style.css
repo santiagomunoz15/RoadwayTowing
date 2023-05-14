@@ -3,6 +3,8 @@
 Gris: #898B89;
 Rojo: #D82729; 
 
+https://www.color-hex.com/color/d82729
+
 */
 
 * {
@@ -17,8 +19,8 @@ img {
 
 
 .horizontal-line {
-    height: 1px;
-    width: 50px;
+    height: 2px;
+    width: 70px;
     margin: 12px auto;
 }
 
@@ -53,6 +55,11 @@ main {
     text-align: center;
 }
 
+
+
+/*    -----------------------------------    */
+
+
 .main-intro {
     margin-bottom: 40px;
 }
@@ -71,14 +78,55 @@ main {
 }
 
 
+/* ------------------------------- */
+
+
+.main-contact {
+    background-color: #898B89;
+    color: #FFF;
+    padding: 7%;
+}
+
+.main-contact-item {
+    margin: 20px 0;
+}
+
+.main-contact-item-location {
+    display: grid;
+    padding-top: 4px;
+    place-content: center center;
+    grid-template-columns: 30px 120px;
+}
+
+.main-contact-item-map {
+    display: grid;
+    place-content: center center;
+    grid-template-columns: 30px auto;
+}
+
+
+
+
+/* ------------------------------- */
+
+
 
 .main-services {
     background-color: #D82729;
     color: #FFF;
-    height: 300px;
     padding: 7%;
 }
 
 #main-services-line {
     background-color: #FFF;
+}
+
+.main-services-item {
+    margin: 28px 0;
+    text-align: left;
+}
+
+.main-services-item p {
+    padding-top: 10px;
+    padding-left: 20px;
 }
