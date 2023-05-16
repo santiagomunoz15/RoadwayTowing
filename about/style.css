@@ -88,15 +88,34 @@ main {
     height: 450px;
 }
 
-#main-intro-line {
-    background-color: #D82729;
-}
 
-.main-text {
+.main-about {
     padding: 40px 0;
     color: #898B89;
 }
 
-.main-text h3 {
+#main-intro-line {
+    background-color: #D82729;
+}
+
+.main-about h1 {
     color: #000;
+}
+
+.main-about-container {
+    display: grid;
+    margin: 40px 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px;
+}
+
+.main-about-text {
+    text-align: left;
+    padding: 7%;
+    
+}
+
+.main-about-text h2 {
+    color: #D82729;
+    padding-bottom: 20px;
 }
