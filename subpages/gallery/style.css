@@ -42,6 +42,7 @@ header {
     background-color: #F7F7F7;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 7%;
     border-bottom: 4px solid #D82729;
 }
@@ -51,7 +52,6 @@ header {
 }
 
 .header-options {
-    margin-left: 40px;
     display: grid;
     gap: 20px;
     grid-template-columns: auto auto auto auto auto auto auto;
@@ -99,62 +99,4 @@ main {
 
 .main-text h3 {
     color: #000;
-}
-
-
-/* ------------------------------- */
-
-
-.main-contact {
-    background-color: #898B89;
-    color: #FFF;
-    padding: 40px 0;
-}
-
-.main-contact-item {
-    margin: 20px 0;
-}
-
-.main-contact-item-location {
-    display: grid;
-    padding-top: 4px;
-    place-content: center center;
-    grid-template-columns: 30px 120px;
-}
-
-.main-contact-item-map {
-    display: grid;
-    place-content: center center;
-    grid-template-columns: 30px auto;
-}
-
-.main-contact-item-map a {
-    color: #FFF;
-}
-
-
-
-
-/* ------------------------------- */
-
-
-
-.main-services {
-    background-color: #D82729;
-    color: #FFF;
-    padding: 7%;
-}
-
-#main-services-line {
-    background-color: #FFF;
-}
-
-.main-services-item {
-    margin: 28px 0;
-    text-align: left;
-}
-
-.main-services-item p {
-    padding-top: 10px;
-    padding-left: 20px;
 }
