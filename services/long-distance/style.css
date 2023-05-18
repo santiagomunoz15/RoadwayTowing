@@ -95,6 +95,7 @@ main {
 
 /*    -----------------------------------    */
 
+
 .main-services-menu {
     display: none;
     position: absolute;
@@ -117,26 +118,4 @@ main {
     transition: .3s;
     background-color: #F7F7F7;
     color: #898B89;
-}
-
-
-.main-intro {
-    margin-bottom: 40px;
-}
-
-.main-intro-img {
-    height: 450px;
-}
-
-#main-intro-line {
-    background-color: #D82729;
-}
-
-.main-text {
-    padding: 40px 0;
-    color: #898B89;
-}
-
-.main-text h3 {
-    color: #000;
 }

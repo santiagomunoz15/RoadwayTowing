@@ -44,6 +44,7 @@ header {
     align-items: center;
     padding: 0 7%;
     border-bottom: 4px solid #D82729;
+    margin: 0 auto;
 }
 
 .header-logo {
@@ -51,14 +52,29 @@ header {
 }
 
 .header-options {
+    margin-left: 40px;
     display: grid;
     gap: 20px;
-    margin-left: 40px;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
 .header-options-item {
     color: #898B89;
+    display: flex;
+    align-items: center;
+}
+
+.header-options-item figure {
+    display: grid;
+    align-items: center;
+}
+
+#header-options-services-arrow1 {
+    display: grid;
+}
+
+#header-options-services-arrow2 {
+    display: none;
 }
 
 .header-menu {
@@ -80,78 +96,26 @@ main {
 /*    -----------------------------------    */
 
 
-.main-intro {
-    margin-bottom: 40px;
+.main-services-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    background-color: #db3c3e;
+    padding: 2% 7%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
 }
 
-.main-intro-img {
-    height: 450px;
-}
-
-#main-intro-line {
+.main-services-menu-item {
     background-color: #D82729;
-}
-
-.main-text {
-    padding: 40px 0;
-    color: #898B89;
-}
-
-.main-text h3 {
-    color: #000;
-}
-
-
-/* ----------------------------- */
-
-
-.main-services {
-    background-color: #D82729;
+    border-radius: 12px;
+    padding: 12px;
     color: #FFF;
-    padding: 40px 7%;
 }
 
-#main-services-line {
-    background-color: #FFF;
-}
-
-.main-services-item-container {
-    display: grid;
-    gap: 20px;
-    margin: 40px 0;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.main-services-item {
-    text-align: left;
-    background-color: rgba(223, 82, 83, .7);
-    border-radius: 8px;
-    padding: 20px;
-    max-width: 430px;
-}
-
-.main-services-item h4 {
-    padding-bottom: 10px;
-}
-
-.main-services-horizontal-line {
-    height: 2px;
-    width: 120px;
-    margin-bottom: 12px;
+.main-services-menu-item:hover {
+    transition: .3s;
     background-color: #F7F7F7;
-}
-
-.main-services-link {
-    display: grid;
-    grid-template-columns: 90px auto;
-    align-content: center;
-    margin-top: 12px;
-    font-weight: bold;
-}
-
-
-/* ----------------------------- */
-
-.main-services-details {
-    padding: 40px 0;
+    color: #898B89;
 }
