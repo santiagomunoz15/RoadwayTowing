@@ -45,6 +45,7 @@ header {
     padding: 0 7%;
     border-bottom: 4px solid #D82729;
     margin: 0 auto;
+    max-width: 1300px;
 }
 
 .header-logo {
@@ -120,11 +121,6 @@ main {
     color: #898B89;
 }
 
-
-.main-intro {
-    margin-bottom: 40px;
-}
-
 .main-intro-img {
     height: 450px;
 }
@@ -138,6 +134,38 @@ main {
     color: #898B89;
 }
 
-.main-text h3 {
+.main-text h1 {
     color: #000;
+}
+
+
+/* ----------------------- */
+
+.gallery {
+    max-width: 1300px;
+    padding: 0 7%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.gallery img {
+    border-radius: 8px;
+}
+
+.gallery-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    gap: 20px;
+}
+
+.gallery-image-left img {
+    object-position: 60% center;
+}
+
+.gallery-image-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
 }

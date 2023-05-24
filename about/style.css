@@ -142,9 +142,10 @@ main {
 
 .main-about-container {
     display: grid;
-    margin: 40px 0;
+    margin: 40px auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px 350px;
+    max-width: 1300px;
 }
 
 .main-about-text {
@@ -156,4 +157,11 @@ main {
 .main-about-text h2 {
     color: #D82729;
     padding-bottom: 20px;
+}
+
+.main-about-extra {
+    max-width: 1300px;
+    padding: 2% 7%;
+    text-align: left;
+    margin: 0 auto;
 }
