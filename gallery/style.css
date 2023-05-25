@@ -70,6 +70,16 @@ header {
     align-items: center;
 }
 
+#header-options-services {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+button {
+    padding: 0;
+}
+
 #header-options-services-arrow1 {
     display: grid;
 }
@@ -106,6 +116,11 @@ main {
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .main-services-menu-item {

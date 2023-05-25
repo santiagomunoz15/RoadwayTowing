@@ -1,13 +1,10 @@
 
 var servicesButton = document.getElementById("header-options-services");
-var servicesMenu = document.querySelector(".main-services-menu");
+var servicesMenu = document.getElementById("main-services-menu");
 var servicesDisplay;
 
 var headerArrowUp = document.getElementById("header-options-services-arrow1");
 var headerArrowDown = document.getElementById("header-options-services-arrow2");
-
-
-servicesDisplay = addEventListener('click', toggleServicesMenu);
 
 
 function toggleServicesMenu () {
